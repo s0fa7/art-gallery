@@ -36,35 +36,63 @@
                 </ul>
             </div>
             <div class="header__login">
-                <a href="/pages/login.html">Log In</a>
-                <a href="/pages/register.html">Register</a>
+                <a href="/pages/login.html">Log Out</a>
             </div>
         </header>
     </div>
-    <main>
-        <div class="register-container">
-            <form class="form-container">
-                <div class="form-group">
-                    <label for="login">Login</label>
-                    <input type="text" id="login" placeholder="Value">
+
+    <div class="personal-page-container">
+        <div class="personal">
+            <div class="personal-info">
+                <img src="/src/assets/images/profile-1.jpg">
+                <p class="personal-info__data">
+                    <span>Sofia</span>
+                    <span>+7 ### ## ##</span>
+                </p>
+            </div>
+            <a href="/">profile</a>
+            <a href="/">setting</a>
+        </div>
+        <div class="personal-actions">
+            <h3>My purchases</h3>
+            <div class="purchases-container">
+                <div class="purchase-card">
+                    <img src="/src/assets/images/purchases-1.jpg" alt="purchase-1">
+                    <div class="delivered-label">delivered</div>
                 </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Value">
+                <div class="purchase-card">
+                    <img src="/src/assets/images/purchases-2.jpg" alt="purchase-2">
+                    <div class="delivered-label">delivered</div>
                 </div>
-                <div class="checkbox-group">
-                    <input type="checkbox" id="terms">
-                    <label for="terms" class="checkbox-label">I accept all terms of use</label>
+            </div>
+            <h3>My reviews</h3>
+            <div class="my-reviews">
+                <div class="my-review">
+                    <img src="/src/assets/images/review.jpg" alt="my-review-1">
+                    <div>
+                        <h4>Animals in art</h4>
+                        <p>"The 'Animals in Art' exhibition is absolutely enchanting! Each piece beautifully captures
+                            the essence of wildlife, making it a must-see for art and animal lovers alike!"</p>
+                    </div>
                 </div>
-                <div class="policy"><a href="https://i.pinimg.com/736x/74/a1/f0/74a1f0d00b6077add587fbcd60666b24.jpg">Our policy</a></div>
-                <button type="submit" class="register-btn"><a href="/pages/personal-page.html">Log in</a></button>
-            </form>
-            <div class="register-container__name">
-                <h2>Log in</h2>
-                <p>Is this our first time? <a class="policy color-a" href="/pages/register.html">register</a></p>
+                <div class="my-review">
+                    <img src="/src/assets/images/revieww.jpg" alt="my-review-2">
+                    <div>
+                        <h4>Family Art Day</h4>
+                        <p>"We had a wonderful time at 'Family Art Day'! The kids were thrilled to participate in the workshops. We will definitely return for 'Art for Everyone"</p>
+                    </div>
+                </div>
+                <div class="my-review">
+                    <img src="/src/assets/images/reviewww.jpg" alt="my-review-3">
+                    <div>
+                        <h4>World of Color</h4>
+                        <p>"'World of Color' amazed me with its diversity. I'm sure I'll return for 'Portrait Evenings' – it's the perfect place for inspiration!"</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
+    </div>
+
     <footer id="contacts" class="footer-container">
         <div>
             <h2>Let's be friends!</h3>

@@ -36,35 +36,41 @@
                 </ul>
             </div>
             <div class="header__login">
-                <a href="/pages/login.html">Log In</a>
-                <a href="/pages/register.html">Register</a>
+                <a href="/pages/login.html">Log Out</a>
             </div>
         </header>
     </div>
-    <main>
-        <div class="register-container">
-            <form class="form-container">
-                <div class="form-group">
-                    <label for="login">Login</label>
-                    <input type="text" id="login" placeholder="Value">
+    <div class="personal-page-container">
+        <div class="personal-page-container">
+            <div class="personal">
+                <div class="personal-info">
+                    <img src="/src/assets/images/profile-1.jpg">
+                    <p class="personal-info__data">
+                        <span>Sofia</span>
+                        <span>+7 ### ## ##</span>
+                    </p>
                 </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Value">
-                </div>
-                <div class="checkbox-group">
-                    <input type="checkbox" id="terms">
-                    <label for="terms" class="checkbox-label">I accept all terms of use</label>
-                </div>
-                <div class="policy"><a href="https://i.pinimg.com/736x/74/a1/f0/74a1f0d00b6077add587fbcd60666b24.jpg">Our policy</a></div>
-                <button type="submit" class="register-btn"><a href="/pages/personal-page.html">Log in</a></button>
-            </form>
-            <div class="register-container__name">
-                <h2>Log in</h2>
-                <p>Is this our first time? <a class="policy color-a" href="/pages/register.html">register</a></p>
+                <a href="/">profile</a>
+                <a href="/">setting</a>
             </div>
         </div>
-    </main>
+        <div class="order">
+            <h3>Making an order</h3>
+            <div class="order__info">
+                <div class="order__info-container">
+                    <h4>Is everything correct?</h4>
+                    <p>The name of the painting: Dreams of Summer</p>
+                    <p>The date and time of the order creation: 16 may 12:15</p>
+                    <p>The description of the order: none</p>
+                    <p>The buyer's full name: Sofia Baferydo</p>
+                    <p>Phone number: +7 123 45 67</p>
+                    <p>Delivery address: -------</p>
+                </div>
+                <img src="/src/assets/images/object-2.jpg">
+            </div>
+            <a href="/">Confirm the order</a>
+        </div>
+    </div>
     <footer id="contacts" class="footer-container">
         <div>
             <h2>Let's be friends!</h3>
@@ -81,5 +87,3 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
 </body>
-
-</html>
