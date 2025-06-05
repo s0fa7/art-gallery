@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>art gallery</title>
     <link rel="stylesheet" href="/src/assets/css/app.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/src/assets/images/brush-svgrepo-com.svg">
 </head>
 
 <body>
@@ -23,14 +22,14 @@
                     d="M27.555 8.42c-1.355 1.647-5.070 6.195-8.021 9.81l-3.747-3.804c3.389-3.016 7.584-6.744 9.1-8.079 2.697-2.377 5.062-3.791 5.576-3.213 0.322 0.32-0.533 2.396-2.908 5.286zM18.879 19.030c-1.143 1.399-2.127 2.604-2.729 3.343l-4.436-4.323c0.719-0.64 1.916-1.705 3.304-2.939l3.861 3.919zM15.489 23.183v-0.012c-2.575 9.88-14.018 4.2-14.018 4.2s4.801 0.605 4.801-3.873c0-4.341 4.412-4.733 4.683-4.753l4.543 4.427c0 0.001-0.009 0.011-0.009 0.011z">
                 </path>
             </svg>
-            <div class="header__menu">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Artist</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Contacts</a></li>
+            <div class="header__navigation">
+                <ul class="scroll-container">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#artists">Artist</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
             <div class="header__login">
@@ -40,7 +39,7 @@
         </header>
     </div>
     <main>
-        <section class="hero-section">
+        <section id="about" class="hero-section">
             <div class="hero-section__content">
                 <h1>the art gallery</h1>
                 <p>Explore our art gallery, featuring a vibrant collection of contemporary and classic works. Discover
@@ -48,7 +47,154 @@
                 <a href="#" class="btn primary-btn">Get started</a>
             </div>
         </section>
-        <section class="review-section">
+        <section class="content">
+            <div id="gallery" class="gallery">
+                <figure class="card">
+                    <a href="/src/assets/images/object-1.jpg" target="_blank">
+                        <img src="/src/assets/images/object-1.jpg" alt="эму" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Summer Rain</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-2.jpg" target="_blank">
+                        <img src="/src/assets/images/object-2.jpg" alt="цукаса" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Green Symphony</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-3.jpg" target="_blank">
+                        <img src="/src/assets/images/object-3.jpg" alt="руи" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Sunny Garden</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-4.jpg" target="_blank">
+                        <img src="/src/assets/images/object-4.jpg" alt="нене" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Leaves in Dance</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-5.jpg" target="_blank">
+                        <img src="/src/assets/images/object-5.jpg" alt="мику" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Dreams of Summer</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-6.jpg" target="_blank">
+                        <img src="/src/assets/images/object-6.jpg" alt="лен" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Secrets of the Forest</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-7.jpg" target="_blank">
+                        <img src="/src/assets/images/object-7.jpg" alt="лен" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Joyful Puddles</h3>
+                </figure>
+                <figure class="card">
+                    <a href="/src/assets/images/object-8.jpg" target="_blank">
+                        <img src="/src/assets/images/object-8.jpg" alt="лен" width="1000" height="616">
+                    </a>
+                    <figcaption class="card__caption">
+                        <p>2000 х 500</p>
+                        <span>fantasy</span>
+                        <span>Pr.Edg</span>
+                        <span>800$</span>
+                    </figcaption>
+                    <h3>Inspiration of Nature</h3>
+                </figure>
+            </div>
+        </section>
+        <section id="artists" class="artists">
+            <div class="artist">
+                <img src="/src/assets/images/artist-1.jpg" alt="A.S.Kovalev">
+                <div class="artiat__info">
+                    <h3>Artemy Stanislavovich Kovalev</h3>
+                    <p>Place of Residence: Moscow</p>
+                    <p>Genre: Modern Impressionism </p>
+                </div>
+            </div>
+            <div class="artist">
+                <img src="/src/assets/images/artist-2.jpg" alt="E.V.Petrov">
+                <div class="artiat__info">
+                    <h3>Elena Viktorovna Petrov </h3>
+                    <p>Place of Residence: St. Petersburg</p>
+                    <p>Genre: Abstract Expressionism</p>
+                </div>
+            </div>
+            <div class="artist">
+                <img src="/src/assets/images/artist-3.jpg" alt="I.S.Orlov">
+                <div class="artiat__info">
+                    <h3>Ivan Sergeyevich Orlov</h3>
+                    <p>Place of Residence: Novosibirsk</p>
+                    <p>Genre: Contemporary Sculpture</p>
+                </div>
+            </div>
+        </section>
+        <section id="events" class="events">
+            <div class="event">
+                <div class="event__info">
+                    <h3>Master class in painting</h3>
+                    <span>25 may 13:00</span>
+                    <p>We invite you to an exciting painting workshop where everyone can discover the artist in
+                        themselves! During the lesson, you will learn the basics of drawing techniques, master various
+                        art materials and learn how to convey your emotions on canvas. </p>
+                </div>
+                <img src="/src/assets/images/event-1.jpg">
+            </div>
+            <div class="event event2">
+                <div class="event__info info-2">
+                    <h3>The Flower Tale Lecture</h3>
+                    <span>1 june 18:00</span>
+                    <p>We invite you to an exciting lecture on color in art! Immerse yourself in the world of colors and
+                        find out how they affect our perception and emotions. </p>
+                </div>
+                <img src="/src/assets/images/event-2.jpg">
+            </div>
+        </section>
+        <section id="reviews" class="review-section">
             <h2>Reviews</h2>
             <div class="reviews">
                 <figure class="review">
@@ -58,14 +204,14 @@
                         every day!" - <span class="reviewName">Sarah M.</span></figcaption>
                 </figure>
                 <figure class="review">
-                    <img src="/src/assets/images/reviews-2.jpg" alt="Reviews-2" height="735px" width="731px"/>
+                    <img src="/src/assets/images/reviews-2.jpg" alt="Reviews-2" height="735px" width="731px" />
                     <figcaption>"A hidden gem! The staff is incredibly knowledgeable and helped me find a stunning
                         artwork that fits perfectly with my decor. I can't recommend this place enough!" -
                         <span class="reviewName">James T.</span>
                     </figcaption>
                 </figure>
                 <figure class="review">
-                    <img src="/src/assets/images/reviews-3.jpg" alt="Reviews-3" height="639px" width="640px"/>
+                    <img src="/src/assets/images/reviews-3.jpg" alt="Reviews-3" height="639px" width="640px" />
                     <figcaption>"This gallery has a diverse range of styles and artists. I was amazed by the
                         talent on display. I ended up purchasing two pieces, and I can't wait to show them off!"
                         <span class="reviewName">Lida S.</span>
@@ -74,7 +220,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer-container">
+    <footer id="contacts" class="footer-container">
         <div>
             <h2>Let's be friends!</h3>
                 <p>For general questions</p>
@@ -84,9 +230,10 @@
                 <p>THU, FRI, SAT: 10:00 — 21:00</p>
                 <p>appgallery@appgallery.ru</p>
         </div>
-        <div class="map">
-            fg
-        </div>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.77175026293136!2d-114.09658349607244!3d51.03349526895779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717100129e2f55%3A0x55faec9c6636704!2sart%20studin!5e0!3m2!1sru!2sru!4v1749114677074!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
 
 </body>
