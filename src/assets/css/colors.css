@@ -1,0 +1,12 @@
+:root {
+  /* Base */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Brand */
+  --brand-primary: #86DDD7;
+  --pink: #FFC2DA;
+  --dark-gray: #676767;
+  --gray: #9F9F9F;
+  --light-gray: #DEDEDE;
+}
