@@ -41,6 +41,7 @@ header {
   z-index: 1;
 
   background-color: oklch(from var(--white) l c h);
+  box-shadow: 1px 5px 51px 11px rgba(134, 221, 215, 0.3);
 }
 .header__navigation ul{
     display: flex;

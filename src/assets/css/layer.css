@@ -1,3 +1,4 @@
+/* main page */
 .hero-section {
     position: relative;
     background-image: url(/src/assets/images/background.jpg);
@@ -246,3 +247,92 @@ h2{
     color: oklch(from var(--pink) l c h);
     font-weight: 600;
 }
+
+
+/* register page */
+.register-container{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin: 20px auto;
+}
+.register-container__name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-container {
+      width: 340px;
+      padding: 32px 24px;
+      background: oklch(from var(--white)l c h);
+      border: 1px solid oklch(from var(--gray)l c h);
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+    .form-group {
+      margin-bottom: 18px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: oklch(from var(--black)l c h);
+      font-size: 16px;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid oklch(from var(--light-gray)l c h);
+      border-radius: 7px;
+      font-size: 15px;
+      color: oklch(from var(--black)l c h);
+      background: oklch(from var(--white)l c h);
+      margin-bottom: 2px;
+      box-sizing: border-box;
+    }
+    input[type="text"]::placeholder,
+    input[type="password"]::placeholder,
+    input[type="email"]::placeholder {
+      color: oklch(from var(--light-gray)l c h);
+      font-size: 15px;
+    }
+    .checkbox-group {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+    .checkbox-group input[type="checkbox"] {
+      accent-color: oklch(from var(--brand-primary)l c h);
+      width: 18px;
+      height: 18px;
+      margin-right: 10px;
+      margin-top: 2px;
+    }
+    .checkbox-label {
+      font-size: 16px;
+      color: oklch(from var(--black)l c h);
+    }
+    .policy {
+      font-size: 14px;
+      color: oklch(from var(--light-gray)l c h);
+      text-decoration: underline;
+    }
+    .color-a {
+        color: oklch(from var(--brand-primary)l c h);
+    }
+    .register-btn {
+      width: 100%;
+      padding: 12px 0;
+      background: oklch(from var(--brand-primary)l c h);
+      color: oklch(from var(--white)l c h);
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: 0.2s;
+    }
+    .register-btn:hover {
+      background: oklch(from var(--brand-primary)l c h);
+    }

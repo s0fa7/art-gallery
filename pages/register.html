@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>art gallery</title>
+    <link rel="stylesheet" href="/src/assets/css/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="/src/assets/images/brush-svgrepo-com.svg">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <header class="header">
+            <a href="/">
+                <svg class="app-logo" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>brush</title>
+                    <path
+                        d="M27.555 8.42c-1.355 1.647-5.070 6.195-8.021 9.81l-3.747-3.804c3.389-3.016 7.584-6.744 9.1-8.079 2.697-2.377 5.062-3.791 5.576-3.213 0.322 0.32-0.533 2.396-2.908 5.286zM18.879 19.030c-1.143 1.399-2.127 2.604-2.729 3.343l-4.436-4.323c0.719-0.64 1.916-1.705 3.304-2.939l3.861 3.919zM15.489 23.183v-0.012c-2.575 9.88-14.018 4.2-14.018 4.2s4.801 0.605 4.801-3.873c0-4.341 4.412-4.733 4.683-4.753l4.543 4.427c0 0.001-0.009 0.011-0.009 0.011z">
+                    </path>
+                </svg>
+            </a>
+            <div class="header__navigation">
+                <ul class="scroll-container">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#artists">Artist</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="header__login">
+                <a href="/pages/login.html">Log In</a>
+                <a href="/pages/register.html">Register</a>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="register-container">
+            <form class="form-container">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Value">
+                </div>
+                <div class="form-group">
+                    <label for="login">Login</label>
+                    <input type="text" id="login" placeholder="Value">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Value">
+                </div>
+                <div class="form-group">
+                    <label for="repeat-password">Repeat password</label>
+                    <input type="password" id="repeat-password" placeholder="Value">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="text" id="phone" placeholder="Value">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Value">
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms" class="checkbox-label">I accept all terms of use</label>
+                </div>
+                <div class="policy"><a href="https://i.pinimg.com/736x/74/a1/f0/74a1f0d00b6077add587fbcd60666b24.jpg">Our policy</a></div>
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+            <div class="register-container__name">
+                <h2>Register</h2>
+                <p>allredy have account? <a class="policy color-a" href="/pages/login.html">log in</a></p>
+            </div>
+        </div>
+    </main>
+    <footer id="contacts" class="footer-container">
+        <div>
+            <h2>Let's be friends!</h3>
+                <p>For general questions</p>
+                <p>+7 (495) 957 07 27</p>
+                <p>+7 (495) 957 07 00</p>
+                <p>TUE, WED, SUN: 10:00 — 18:00</p>
+                <p>THU, FRI, SAT: 10:00 — 21:00</p>
+                <p>appgallery@appgallery.ru</p>
+        </div>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.77175026293136!2d-114.09658349607244!3d51.03349526895779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717100129e2f55%3A0x55faec9c6636704!2sart%20studin!5e0!3m2!1sru!2sru!4v1749114677074!5m2!1sru!2sru"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+
+</html>
